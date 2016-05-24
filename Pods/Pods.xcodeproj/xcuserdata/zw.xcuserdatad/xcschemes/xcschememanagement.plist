@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GRMustache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JRSwizzle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>WebViewJavascriptBridge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>326B91C447D2842FC97C6648DE2E6E8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4B9B74B1D63B58F82B1AA0944343D037</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F48671233FC0D9704373B02A074920D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E27EBF430C46ED42D12B9A6063120384</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

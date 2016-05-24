@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0">
+  <script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+  <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+  <script>
+    //左侧Javascript代码
+    $(function () {
+    var chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container',
+            type: 'pie'
+            },
+        title :{
+            text:'startAngle=-90 and endAngle=90'
+        },
+        plotOptions: {
+            pie: {
+                startAngle: -100,
+                endAngle:100,  
+                center: ['20%', '70%']
+            }
+        },
+        series: [{
+            data: [
+                ['Firefox',   14.2],
+                ['IE7',       16.6],
+                ['IE6',       30],
+                ['Chrome',    13.1],
+                ['Other',    5.4]
+            ]
+        }]
+    });
+    });             
+  </script>
+</head>
+<body>
+  <div id="container" style="min-width:700px;height:400px"></div>
+</body>
+</html>

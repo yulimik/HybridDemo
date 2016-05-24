@@ -1,0 +1,16 @@
+PODS:
+  - GRMustache (7.3.2):
+    - JRSwizzle (~> 1.0)
+  - JRSwizzle (1.0)
+  - WebViewJavascriptBridge (5.0.5)
+
+DEPENDENCIES:
+  - GRMustache
+  - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  GRMustache: ebe6104fd30a6d22c1f36af131e19e2dbf7cd292
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  WebViewJavascriptBridge: a4d502315f1b8d9a51cd6a9174147ed567ec3bc5
+
+COCOAPODS: 0.39.0
